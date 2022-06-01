@@ -8,22 +8,6 @@
     "type": "git",
     "url": "https://github.com/magiclabs/magic-js"
   },
-  "files": [
-    "dist"
-  ],
-  "target": "node",
-  "main": "./dist/cjs/index.js",
-  "module": "./dist/es/index.js",
-  "types": "./dist/types/index.d.ts",
-  "exports": {
-    "import": "./dist/es/index.mjs",
-    "require": "./dist/cjs/index.js"
-  },
-  "externals": {
-    "include": [
-      "@magic-sdk/react-native"
-    ]
-  },
   "dependencies": {
     "@magic-sdk/types": "^7.1.1",
     "crypto-js": "^3.3.0",
